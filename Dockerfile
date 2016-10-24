@@ -10,4 +10,6 @@ ADD init_angular2.sh /
 
 USER nonrootuser
 
+EXPOSE 4200
+
 CMD ["/init_angular2.sh"]
