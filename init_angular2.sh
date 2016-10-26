@@ -2,4 +2,5 @@
 
 /init_nodejs.sh
 
-ng serve --host 0.0.0.0 --live-reload-port 49094
+# sudo is needed to launch on port 80
+sudo ng serve --host 0.0.0.0 --port 80 --live-reload-port 49094
